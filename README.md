@@ -20,7 +20,7 @@ cp .env.example .env
 docker compose up -d --build
 ```
 
-4. Open `http://localhost:3000`.
+4. Open `http://localhost:3010`.
 
 The root `docker-compose.yml` builds the local Octave CRM AI image from this repository, then starts the app server, worker, PostgreSQL, and Redis.
 
