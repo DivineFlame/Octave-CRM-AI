@@ -14,13 +14,20 @@ cp .env.example .env
 
 2. Edit `.env` and set strong values for `ENCRYPTION_KEY` and `APP_SECRET`.
 
+For the Dokploy server at `38.247.188.228`, use:
+
+```bash
+SERVER_URL=http://38.247.188.228:3000
+APP_PORT=3000
+```
+
 3. Build and start the stack:
 
 ```bash
 docker compose up -d --build
 ```
 
-4. Open `http://localhost:3010`.
+4. Open `http://38.247.188.228:3000`.
 
 The root `docker-compose.yml` builds the local Octave CRM AI image from this repository, then starts the app server, worker, PostgreSQL, and Redis.
 
