@@ -5,9 +5,11 @@ const logoStyle = {
 };
 
 export const Logo = () => {
+  const serverUrl = process.env.SERVER_URL?.replace(/\/$/, '') ?? '';
+
   return (
     <Img
-      src="https://app.twenty.com/images/brand/octave-mark.png"
+      src={`${serverUrl}/images/brand/octave-mark.png`}
       alt="Octave CRM AI logo"
       width="40"
       height="40"

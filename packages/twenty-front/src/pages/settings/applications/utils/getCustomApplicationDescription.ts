@@ -20,7 +20,7 @@ If you are shaping one workspace for one business, keep it here. If you are buil
 Scaffold a new app in one command:
 
 \`\`\`bash
-npx create-twenty-app@latest my-twenty-app
+npx create-twenty-app@latest my-octave-app
 \`\`\`
 
-See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the \`defineApplication\` / \`defineEntity\` APIs.`;
+See the [Octave CRM AI repository](https://github.com/DivineFlame/Octave-CRM-AI) for deployment and development notes.`;

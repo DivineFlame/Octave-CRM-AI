@@ -56,7 +56,7 @@ export class ApplicationVersionValidationService {
       return {
         compatible: false,
         reason: 'INCOMPATIBLE',
-        message: `App requires Twenty server ${requiredServerVersion} but this server is ${inferredServerVersion}.`,
+        message: `App requires Octave CRM AI server ${requiredServerVersion} but this server is ${inferredServerVersion}.`,
       };
     }
 

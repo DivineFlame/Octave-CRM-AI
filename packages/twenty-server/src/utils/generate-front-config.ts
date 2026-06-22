@@ -20,11 +20,11 @@ export function generateFrontConfig(): void {
     ? {}
     : { REACT_APP_SERVER_BASE_URL: process.env.SERVER_URL };
 
-  const configString = `<!-- BEGIN: Twenty Config -->
+  const configString = `<!-- BEGIN: Octave CRM AI Config -->
     <script id="twenty-env-config">
       window._env_ = ${JSON.stringify(envForFront, null, 2)};
     </script>
-    <!-- END: Twenty Config -->`;
+    <!-- END: Octave CRM AI Config -->`;
 
   const distPath = path.join(__dirname, '..', 'front');
   const indexPath = path.join(distPath, 'index.html');
@@ -33,7 +33,7 @@ export function generateFrontConfig(): void {
     let indexContent = fs.readFileSync(indexPath, 'utf8');
 
     indexContent = indexContent.replace(
-      /<!-- BEGIN: Twenty Config -->[\s\S]*?<!-- END: Twenty Config -->/,
+      /<!-- BEGIN: Octave CRM AI Config -->[\s\S]*?<!-- END: Octave CRM AI Config -->/,
       configString,
     );
 

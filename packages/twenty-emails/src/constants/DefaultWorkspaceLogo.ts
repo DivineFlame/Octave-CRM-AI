@@ -1,2 +1,1 @@
-export const DEFAULT_WORKSPACE_LOGO =
-  'https://app.twenty.com/images/brand/octave-mark.png';
+export const DEFAULT_WORKSPACE_LOGO = '/images/brand/octave-mark.png';

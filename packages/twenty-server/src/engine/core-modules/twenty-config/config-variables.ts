@@ -390,7 +390,7 @@ export class ConfigVariables {
     description: 'Name used in the From header for outgoing emails',
     type: ConfigVariableType.STRING,
   })
-  EMAIL_FROM_NAME = 'Felix from Twenty';
+  EMAIL_FROM_NAME = 'Octave CRM AI';
 
   @ConfigVariablesMetadata({
     group: ConfigVariablesGroup.EMAIL_SETTINGS,
@@ -1657,12 +1657,12 @@ export class ConfigVariables {
 
   @ConfigVariablesMetadata({
     group: ConfigVariablesGroup.SERVER_CONFIG,
-    description: 'Base URL for the Enterprise API on twenty.com',
+    description: 'Base URL for the Enterprise API',
     isHiddenInAdminPanel: true,
     type: ConfigVariableType.STRING,
   })
   @IsOptional()
-  ENTERPRISE_API_URL: string = 'https://twenty.com/api/enterprise';
+  ENTERPRISE_API_URL: string = 'https://github.com/DivineFlame/Octave-CRM-AI';
 
   @ConfigVariablesMetadata({
     group: ConfigVariablesGroup.ADVANCED_SETTINGS,
@@ -1683,7 +1683,7 @@ export class ConfigVariables {
 
   @ConfigVariablesMetadata({
     group: ConfigVariablesGroup.SERVER_CONFIG,
-    description: 'Twenty server version',
+    description: 'Octave CRM AI server version',
     type: ConfigVariableType.STRING,
     isEnvOnly: true,
     isHiddenInAdminPanel: true,

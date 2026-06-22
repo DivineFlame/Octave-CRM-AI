@@ -20,6 +20,7 @@ export const CleanSuspendedWorkspaceEmail = ({
   locale,
 }: CleanSuspendedWorkspaceEmailProps) => {
   const i18n = createI18nInstance(locale);
+  const serverUrl = process.env.SERVER_URL?.replace(/\/$/, '') ?? '';
 
   return (
     <BaseEmail width={333} locale={locale}>
@@ -46,7 +47,7 @@ export const CleanSuspendedWorkspaceEmail = ({
       </MainText>
       <br />
       <CallToAction
-        href="https://app.twenty.com/"
+        href={`${serverUrl}/`}
         value={i18n._('Create a new workspace')}
       />
       <br />

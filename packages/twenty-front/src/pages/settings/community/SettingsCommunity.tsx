@@ -130,7 +130,7 @@ export const SettingsCommunity = () => {
             description={t`Hire a partner to help you implement and customize Octave CRM AI.`}
           />
           <StyledCardLink
-            href="https://twenty.com/partners/list"
+            href="https://github.com/DivineFlame/Octave-CRM-AI"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -154,7 +154,7 @@ export const SettingsCommunity = () => {
           <StyledFeaturesContent>
             <SettingsLabContent />
             <StyledCardLink
-              href="https://twenty.com/releases"
+              href="https://github.com/DivineFlame/Octave-CRM-AI/releases"
               target="_blank"
               rel="noopener noreferrer"
             >

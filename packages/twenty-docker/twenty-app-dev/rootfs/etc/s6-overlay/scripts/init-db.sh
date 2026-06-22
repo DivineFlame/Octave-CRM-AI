@@ -27,7 +27,7 @@ su-exec postgres psql -h localhost -tc \
   "SELECT 1 FROM pg_database WHERE datname='default'" | grep -q 1 \
   || su-exec postgres createdb -h localhost -O twenty default
 
-# Run Twenty database setup and migrations
+# Run Octave CRM AI database setup and migrations
 cd /app/packages/twenty-server
 
 has_schema=$(PGPASSWORD=twenty psql -h localhost -U twenty -d default -tAc \

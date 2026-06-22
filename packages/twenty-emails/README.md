@@ -1,6 +1,6 @@
-# Twenty Emails
+# Octave CRM AI Emails
 
-This package contains the email templates used by Twenty.
+This package contains the email templates used by Octave CRM AI.
 
 ## Features
 

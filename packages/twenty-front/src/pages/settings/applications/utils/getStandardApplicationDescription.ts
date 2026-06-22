@@ -20,14 +20,14 @@ Remove this app and the rest of Octave CRM AI has nothing to hang off.
 Extend Octave CRM AI with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:
 
 \`\`\`bash
-npx create-twenty-app@latest my-twenty-app
+npx create-twenty-app@latest my-octave-app
 \`\`\`
 
 Then inside the folder:
 
 \`\`\`bash
-cd my-twenty-app
+cd my-octave-app
 yarn twenty dev
 \`\`\`
 
-See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the \`defineApplication\` / \`defineEntity\` APIs.`;
+See the [Octave CRM AI repository](https://github.com/DivineFlame/Octave-CRM-AI) for deployment and development notes.`;

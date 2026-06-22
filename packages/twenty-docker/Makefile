@@ -1,4 +1,4 @@
-# Makefile for building and running Twenty CRM docker containers.
+# Makefile for building and running Octave CRM AI docker containers.
 # Set the tag and/or target build platform using make command-line variables assignments.
 #
 # Optional make variables:

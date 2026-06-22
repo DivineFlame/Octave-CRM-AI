@@ -188,7 +188,7 @@ const createWelcomeRichText = ({
             },
             {
               type: 'link',
-              href: 'https://docs.twenty.com/getting-started/introduction',
+              href: 'https://github.com/DivineFlame/Octave-CRM-AI',
               content: [
                 {
                   type: 'text',

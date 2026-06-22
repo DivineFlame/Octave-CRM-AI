@@ -22,6 +22,7 @@ export const WarnSuspendedWorkspaceEmail = ({
   locale,
 }: WarnSuspendedWorkspaceEmailProps) => {
   const i18n = createI18nInstance(locale);
+  const serverUrl = process.env.SERVER_URL?.replace(/\/$/, '') ?? '';
   const daysLeft = inactiveDaysBeforeDelete - daysSinceInactive;
   const dayOrDays = daysLeft > 1 ? 'days' : 'day';
   const remainingDays = daysLeft > 0 ? daysLeft : 0;
@@ -57,7 +58,7 @@ export const WarnSuspendedWorkspaceEmail = ({
       </MainText>
       <br />
       <CallToAction
-        href="https://app.twenty.com/settings/billing"
+        href={`${serverUrl}/settings/billing`}
         value={i18n._('Update your subscription')}
       />
       <br />

@@ -64,19 +64,11 @@ export const FooterNote = () => {
     return (
       <StyledCopyContainer>
         <Trans>By using Octave CRM AI, you agree to the</Trans>{' '}
-        <a
-          href="https://twenty.com/legal/terms"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="/legal/terms" target="_blank" rel="noopener noreferrer">
           <Trans>Terms of Service</Trans>
         </a>{' '}
         <Trans>and</Trans>{' '}
-        <a
-          href="https://twenty.com/legal/privacy"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="/legal/privacy" target="_blank" rel="noopener noreferrer">
           <Trans>Privacy Policy</Trans>
         </a>
         .
@@ -94,19 +86,11 @@ export const FooterNote = () => {
           <StyledSeparator>•</StyledSeparator>
         </>
       )}
-      <a
-        href="https://twenty.com/legal/privacy"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/legal/privacy" target="_blank" rel="noopener noreferrer">
         <Trans>Privacy Policy</Trans>
       </a>
       <StyledSeparator>•</StyledSeparator>
-      <a
-        href="https://twenty.com/legal/terms"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/legal/terms" target="_blank" rel="noopener noreferrer">
         <Trans>Terms of Service</Trans>
       </a>
     </StyledLinksContainer>

@@ -11,11 +11,11 @@ const mockedFs = fs as jest.Mocked<typeof fs>;
 
 const INDEX_TEMPLATE = `<html>
   <head>
-    <!-- BEGIN: Twenty Config -->
+    <!-- BEGIN: Octave CRM AI Config -->
     <script id="twenty-env-config">
       window._env_ = {"REACT_APP_SERVER_BASE_URL":"http://stale-value"};
     </script>
-    <!-- END: Twenty Config -->
+    <!-- END: Octave CRM AI Config -->
   </head>
 </html>`;
 
